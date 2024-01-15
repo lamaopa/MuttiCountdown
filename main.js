@@ -10,7 +10,7 @@ function timeCountDown() {
   const nowDate = new Date();
 
   // Date de nouvel an en millisecondes depuis l'époque (1er janvier 1970)
-  const newYearDate = new Date("January 28, 2024 18:17:00").getTime();
+  const newYearDate = new Date("January 17, 2024 14:01:00").getTime();
 
   // Calcul de la différence de temps en millisecondes entre la date actuelle et la date de nouvel an
   const timeDifference = newYearDate - nowDate;
@@ -60,14 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
     'angela10.jpeg',
     'angela11.jpeg',
     'angela12.jpeg',
-    'angela13.jpeg',
-    'angela14.jpeg',
-
-
     
-
-
-
 
     
   ];
