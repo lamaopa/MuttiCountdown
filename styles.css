@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Teko:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 16px;
+    
+}
+.timer {
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 21em;
+    background: rgba(255, 255, 255, 0.6); /* Couleur de fond avec opacité */
+    border-radius: 10px;
+    backdrop-filter: blur(60px); 
+    height: fit-content;
+}
+
+#timeday, #timehour, #timeminute, #timeseconds {
+    font-family: 'Teko', sans-serif;
+    font-size: 5vw; 
+}
+
+.countdown-container {
+    text-align: center;
+    margin: 1em; /* Ajoutez une marge autour des éléments */
+}
+
+.text {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem; /* Taille de police pour le texte */
+}
+
+/* Ajoutez des styles pour les écrans plus petits si nécessaire */
+@media (max-width: 600px) {
+    #timeday, #timehour, #timeminute, #timeseconds {
+        font-size: 8vw; /* Ajustez la taille de la police pour les petits écrans */
+    }
+
+    .text {
+        font-size: 1rem; /* Ajustez la taille de la police pour les petits écrans */
+    }
+}
